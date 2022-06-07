@@ -1,0 +1,87 @@
+
+body{
+  background: url('Untitled-1.png'); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  disp: block;
+  position:flex;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background-size: cover;
+  font-family: 'Arvo', serif;
+
+}
+
+.cad {
+  position: relative;
+  background-color:rgb(216,191,216);
+  left: 550px;
+  width:650px;
+  height:1000px;
+  text-align: center;
+}
+
+.tex {
+  margin: left 40px;
+}
+
+#tit {
+  text-align: center;
+  
+}
+
+#bot {
+  margin-top: 15px;
+  width: 250px;
+  height: 50px
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+.cad {
+  position: relative;
+  background-color:rgb(216,191,216);
+  left: 50px;
+  width:450px;
+  height:1000px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 320px) {
+
+
+
+.cad {
+  position: relative;
+  background-color:rgb(216,191,216);
+  left: 30px;
+  width:260px;
+  height:1080px;
+  text-align: center;
+}
+
+#tit {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.subt {
+ font-size: 1.1em;
+  
+}
+
+
+
+
+
+
+
+
+  
+}
+
+
+

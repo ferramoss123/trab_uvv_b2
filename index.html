@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <title>cadastro da anfitria</title>
+</head>
+<body>
+  <!-- div cadastro -->
+
+ <div class="w3-sidebar w3-bar-block w3-row-padding" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-button w3-larg">Close &times;</button>
+
+        <a href="#" class="w3-bar-item w3-button">
+            <span class="material-symbols-outlined"></span> Home </a>
+
+        <a href="#" class="w3-bar-item w3-button"> 
+            <span class="material-symbols-outlined"></span> Sobre Nós</a>
+
+        <a href="#" class="w3-bar-item w3-button">
+            <span class="material-symbols-outlined"></span>  Contato</a>
+
+      </div>
+  <button class="w3-button w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="cad">
+    <h1 id="tit"> Cadastro da Refugiada</h1>
+    
+    
+  <div><h2 class="subt">Dados Pessoais</h2></div>
+<div class="nome">
+<p>Nome Completo</p>
+<input id="nome" type="text" class="w3-round-xlarge">
+   </div> 
+   <div>
+ <p>Data de nascimento</p>
+ <input type="date" name="nascimento" id="data" class="w3-round-xlarge">
+   </div>
+
+<div>
+    <p> E-mail</p>
+     <input id="email" type="email" class="w3-round-xlarge">
+  </div>
+<div class="">
+<p>Documento de identificação</p>
+<input id="documento" type="text" class="w3-round-xlarge">
+   </div> 
+<p>Senha</p>
+<input id="senha" type="password"  class="w3-round-xlarge">
+   
+  <div>
+<p>Confirme a senha</p>
+<input id="confsenha" type="password"  class="w3-round-xlarge">
+   </div>
+
+<div><h2 class="subt">Informações adicionais</h2></div>
+  <div>
+  <p>Possui quantos filhos(as)?</p>
+  <input id="filhos" type="number" name="filhos" class="w3-round-xlarge">
+  <p> Possui algum tipo de deficiência?</p>
+  <input type="radio" name="deficiencia" value="sim"/> Sim<br />
+  <input type="radio" name="deficiencia" value="nao"/> Não<br />
+  <p>Se sim,qual?</p>
+  <input id="tipodef" type="text" class="w3-round-xlarge">
+    <br>
+  </div>
+
+    <input id="bot" onclick="cadastrar()" value="Cadastrar-se" type="button">
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
